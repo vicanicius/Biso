@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "908ffbea-3d05-4fb9-8eb5-8e092056a562",
+		"name": "Biso",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12042399"
+	},
+	"item": [
+		{
+			"name": "Calcular media",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/vican/Documents/mediana.txt"
+						},
+						{
+							"key": "file2",
+							"type": "file",
+							"src": "/C:/Users/vican/Documents/mediana2.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000/api/average",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"average"
+					],
+					"query": [
+						{
+							"key": "file",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
