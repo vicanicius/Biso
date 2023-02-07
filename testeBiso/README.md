@@ -12,4 +12,4 @@ O ambiente pode ser acessado no http://localhost:8000
 
 ## Instrução de uso
 
-Utilizar a collection de Postman na raiz do projeto para obter a rota, e adicionar o arquivo fornecido para teste.
+Utilizar a collection de Postman na raiz do projeto para obter a rota, e adicionar o arquivo fornecido para teste na pasta arquivos do projeto.
